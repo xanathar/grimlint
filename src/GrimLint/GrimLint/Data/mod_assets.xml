@@ -1,0 +1,542 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Assets>
+
+	<!-- mod_assets/southern_temple/scripts/objects.lua -->
+	<o name="southern_temple_gobelin" class="WallTapestry" />
+	<o name="southern_temple_dragon_statue" class="Blockage" />
+	<o name="southern_temple_receptor" class="Receptor" />
+	<o name="southern_temple_dungeon_daemon_head" class="Decoration" />
+	<o name="southern_temple_daemon_head_eye_slots" class="Decoration" />
+	<o name="southern_temple_altar" class="Altar" />
+	<o name="southern_temple_ceiling_lamp" class="LightSource" />
+	<o name="southern_temple_ceiling_std" class="Decoration" />
+	<o name="southern_temple_ceiling_shaft" class="Decoration" />
+	<o name="southern_temple_door_iron" class="Door" />
+	<o name="southern_temple_door_metal" class="Door" />
+	<o name="southern_temple_door_ornamentff" class="Door" />
+	<o name="southern_temple_door_ornament" class="Door" />
+	<o name="southern_temple_door_portcullis" class="Door" />
+	<o name="southern_temple_door_wooden" class="Door" />
+	<o name="southern_temple_door_wooden_locked" class="Door" />
+	<o name="southern_temple_fake_wall" class="Decoration" />
+	<o name="southern_temple_secret_door" class="Door" />
+	<o name="southern_temple_wall_grating" class="Door" />
+	<o name="southern_temple_cave_in" class="Blockage" />
+	<o name="southern_temple_cave_in_ceiling" class="Decoration" />
+	<o name="southern_temple_pillar" class="Decoration" />
+	<o name="southern_temple_pillar_red" class="Decoration" />
+	<o name="southern_temple_floor_std" class="Decoration" />
+	<o name="southern_temple_floor_drainage" class="Decoration" />
+	<o name="southern_temple_floor_decor" class="Decoration" />
+	<o name="southern_temple_pit" class="Pit" />
+	<o name="southern_temple_pressure_plate" class="PressurePlate" />
+	<o name="southern_temple_catacomb_empty" class="Decoration" />
+	<o name="southern_temple_catacomb_skeleton_down" class="Decoration" />
+	<o name="southern_temple_catacomb_skeleton_up" class="Decoration" />
+	<o name="southern_temple_alcove" class="Alcove" />
+	<o name="southern_temple_wall_drainage" class="Decoration" />
+	<o name="southern_temple_mosaic_wall_1" class="Decoration" />
+	<o name="southern_temple_mosaic_wall_2" class="Decoration" />
+	<o name="southern_temple_stairs_down" class="Stairs" />
+	<o name="southern_temple_stairs_up" class="Stairs" />
+	<o name="southern_temple_gladiator_statue_axe" class="Decoration" />
+	<o name="southern_temple_gladiator_statue_flail" class="Decoration" />
+	<o name="southern_temple_gladiator_statue_spear" class="Decoration" />
+	<o name="southern_temple_gladiator_statue_sword" class="Decoration" />
+	<o name="southern_temple_goromorg_statue" class="Decoration" />
+	<o name="southern_temple_secret_button_large" class="Button" />
+	<o name="southern_temple_secret_button_small" class="Button" />
+	<o name="southern_temple_secret_button_tiny" class="Button" />
+	<o name="southern_temple_wall_text" class="WallText" />
+	<o name="southern_temple_wall_text_long" class="WallText" />
+	<!-- mod_assets/corrupt/scripts/objects.lua -->
+	<o name="corrupt_secret_door" class="Door" />
+	<o name="corrupt_alcove" class="Alcove" />
+	<o name="corrupt_wall_text" class="WallText" />
+	<o name="corrupt_wall_text_long" class="WallText" />
+	<o name="corrupt_pressure_plate" class="PressurePlate" />
+	<o name="corrupt_stairs_down" class="Stairs" />
+	<o name="corrupt_stairs_up" class="Stairs" />
+	<o name="corrupt_pit" class="Pit" />
+	<o name="corrupt_pillar" class="Decoration" />
+	<o name="corrupt_floor_drainage" class="Decoration" />
+	<o name="corrupt_wall_drainage" class="Decoration" />
+	<o name="corrupt_ceiling_shaft" class="Decoration" />
+	<o name="corrupt_altar" class="Altar" />
+	<o name="corrupt_secret_button_large" class="Button" />
+	<o name="corrupt_secret_button_small" class="Button" />
+	<o name="corrupt_door_metal" class="Door" />
+	<o name="corrupt_door_portcullis" class="Door" />
+	<o name="corrupt_door_iron" class="Door" />
+	<o name="corrupt_door_wooden" class="Door" />
+	<!-- mod_assets/corrupt/scripts/wall_sets.lua -->
+	<!-- mod_assets/corrupt/scripts/materials.lua -->
+	<!-- mod_assets/scripts/clean_dungeon_materials.lua -->
+	<!-- mod_assets/scripts/clean_dungeon_objects.lua -->
+	<o name="clean_dungeon_pillar" class="Decoration" />
+	<o name="cleanwall_symbol1" class="Decoration" />
+	<o name="cleanwall_symbol2" class="Decoration" />
+	<o name="cleanwall_symbol3" class="Decoration" />
+	<o name="cleanwall_symbol4" class="Decoration" />
+	<o name="cleanwall_symbol5" class="Decoration" />
+	<o name="cleanwall_symbol6" class="Decoration" />
+	<o name="cleanwall_symbol7" class="Decoration" />
+	<o name="cleanwall_symbol8" class="Decoration" />
+	<o name="clean_dungeon_catacomb_empty" class="Decoration" />
+	<o name="clean_dungeon_catacomb_skeleton_down" class="Decoration" />
+	<o name="clean_dungeon_catacomb_skeleton_up" class="Decoration" />
+	<o name="clean_dungeon_cave_in_ceiling" class="Decoration" />
+	<o name="clean_dungeon_door_wooden" class="Door" />
+	<o name="clean_dungeon_door_portcullis" class="Door" />
+	<o name="clean_dungeon_door_wooden_locked" class="Door" />
+	<o name="clean_dungeon_door_iron" class="Door" />
+	<o name="clean_dungeon_door_metal" class="Door" />
+	<o name="clean_dungeon_door_ornament" class="Door" />
+	<o name="clean_dungeon_goromorg_statue" class="Decoration" />
+	<o name="clean_dungeon_pit" class="Pit" />
+	<o name="clean_dungeon_stairs_down" class="Stairs" />
+	<o name="clean_dungeon_stairs_up" class="Stairs" />
+	<o name="clean_dungeon_secret_button_large" class="Button" />
+	<o name="clean_dungeon_pressure_plate" class="PressurePlate" />
+	<o name="clean_dungeon_secret_button_small" class="Button" />
+	<o name="clean_dungeon_secret_door" class="Door" />
+	<o name="clean_dungeon_alcove" class="Alcove" />
+	<o name="clean_dungeon_wall_grating" class="Door" />
+	<o name="clean_dungeon_wall_text" class="WallText" />
+	<o name="clean_dungeon_wall_text_long" class="WallText" />
+	<o name="clean_daemon_head" class="Decoration" />
+	<o name="clean_dungeon_gladiator_statue_axe" class="Decoration" />
+	<o name="clean_dungeon_gladiator_statue_dismantler" class="Decoration" />
+	<o name="clean_dungeon_gladiator_statue_flail" class="Decoration" />
+	<o name="clean_dungeon_gladiator_statue_spear" class="Decoration" />
+	<!-- mod_assets/scripts/clean_dungeon_wallset.lua -->
+	<!-- mod_assets/scripts/northern_dungeon_wall_set.lua -->
+	<!-- mod_assets/scripts/northern_dungeon_materials.lua -->
+	<!-- mod_assets/scripts/northern_dungeon_objects.lua -->
+	<o name="northern_dungeon_alcove" class="Alcove" />
+	<o name="northern_dungeon_altar" class="Altar" />
+	<o name="northern_dungeon_bench" class="Decoration" />
+	<o name="northern_dungeon_catacomb_empty" class="Decoration" />
+	<o name="northern_dungeon_catacomb_alcove" class="Alcove" />
+	<o name="northern_dungeon_catacomb_skeleton_down" class="Decoration" />
+	<o name="northern_dungeon_catacomb_skeleton_up" class="Decoration" />
+	<o name="northern_dungeon_cave_in" class="Blockage" />
+	<o name="northern_dungeon_cave_in_ceiling" class="Decoration" />
+	<o name="northern_dungeon_ceiling_lamp" class="LightSource" />
+	<o name="northern_dungeon_ceiling_root_1" class="Decoration" />
+	<o name="northern_dungeon_ceiling_root_2" class="Decoration" />
+	<o name="northern_dungeon_ceiling_root_3" class="Decoration" />
+	<o name="northern_dungeon_ceiling_shaft" class="Decoration" />
+	<o name="northern_dungeon_daemon_head" class="Decoration" />
+	<o name="northern_dungeon_daemon_head_eye_slots" class="Decoration" />
+	<o name="northern_dungeon_door_iron" class="Door" />
+	<o name="northern_dungeon_door_metal" class="Door" />
+	<o name="northern_dungeon_door_ornament" class="Door" />
+	<o name="northern_dungeon_door_portcullis" class="Door" />
+	<o name="northern_dungeon_door_steel" class="Door" />
+	<o name="northern_dungeon_door_wooden" class="Door" />
+	<o name="northern_dungeon_door_wooden_locked" class="Door" />
+	<o name="northern_dungeon_dragon_statue" class="Blockage" />
+	<o name="northern_dungeon_floor_corpse_1" class="Decoration" />
+	<o name="northern_dungeon_floor_corpse_2" class="Decoration" />
+	<o name="northern_dungeon_floor_drainage" class="Decoration" />
+	<o name="northern_dungeon_goromorg_fourway" class="Blockage" />
+	<o name="northern_dungeon_goromorg_statue" class="Decoration" />
+	<o name="northern_dungeon_ivy_1" class="Decoration" />
+	<o name="northern_dungeon_ivy_2" class="Decoration" />
+	<o name="northern_dungeon_pillar" class="Decoration" />
+	<o name="northern_dungeon_pit" class="Pit" />
+	<o name="northern_dungeon_pressure_plate" class="PressurePlate" />
+	<o name="northern_dungeon_receptor" class="Receptor" />
+	<o name="northern_dungeon_secret_button_large" class="Button" />
+	<o name="northern_dungeon_secret_button_small" class="Button" />
+	<o name="northern_dungeon_secret_door" class="Door" />
+	<o name="northern_dungeon_stairs_down" class="Stairs" />
+	<o name="northern_dungeon_stairs_up" class="Stairs" />
+	<o name="northern_dungeon_wall_drainage" class="Decoration" />
+	<o name="northern_dungeon_wall_grating" class="Door" />
+	<o name="northern_dungeon_wall_text" class="WallText" />
+	<o name="northern_dungeon_wall_text_long" class="WallText" />
+	<o name="northern_dungeon_healing_crystal" class="Crystal" />
+	<o name="northern_ogre" class="Monster" />
+	<!-- mod_assets/scripts/clear_wall_set.lua -->
+	<!-- mod_assets/scripts/mine/mine_objects.lua -->
+	<o name="mine_pillar01" class="Decoration" />
+	<o name="mine_floor_basic" class="Decoration" />
+	<o name="mine_alcove01" class="Alcove" />
+	<o name="mine_ceiling_basic" class="Decoration" />
+	<o name="mine_ceiling_shaft" class="Decoration" />
+	<o name="mine_pit" class="Pit" />
+	<o name="mine_cave_in_ceiling" class="Decoration" />
+	<o name="mine_cave_in" class="Blockage" />
+	<o name="mine_wall_text" class="WallText" />
+	<o name="mine_wall_text_long" class="WallText" />
+	<o name="mine_secret_button_large" class="Button" />
+	<o name="mine_secret_button_small" class="Button" />
+	<o name="mine_pressure_plate" class="PressurePlate" />
+	<o name="mine_stairs_down" class="Stairs" />
+	<o name="mine_stairs_up" class="Stairs" />
+	<o name="mine_wall_deco01" class="Decoration" />
+	<o name="mine_wall_deco02" class="Decoration" />
+	<o name="mine_wall_deco03" class="Decoration" />
+	<o name="mine_wall_deco04" class="Decoration" />
+	<o name="mine_wall_deco05" class="Decoration" />
+	<o name="mine_wall_deco06" class="Decoration" />
+	<o name="mine_floor_drainage01" class="Decoration" />
+	<o name="mine_ceiling_lamp" class="LightSource" />
+	<o name="mine_ceiling_light_shaft" class="Decoration" />
+	<o name="mine_floor_rocks01" class="Decoration" />
+	<o name="mine_workplace01" class="Decoration" />
+	<o name="mine_workplace02" class="Decoration" />
+	<o name="mine_workplace03" class="Decoration" />
+	<o name="mine_pit_corner_SE" class="Pit" />
+	<o name="mine_pit_corner_SW" class="Pit" />
+	<o name="mine_pit_corner_NW" class="Pit" />
+	<o name="mine_pit_corner_NE" class="Pit" />
+	<o name="mine_pit_cornerout_NE" class="Pit" />
+	<o name="mine_pit_cornerout_NW" class="Pit" />
+	<o name="mine_pit_cornerout_SE" class="Pit" />
+	<o name="mine_pit_cornerout_SW" class="Pit" />
+	<o name="mine_pit_N" class="Pit" />
+	<o name="mine_pit_S" class="Pit" />
+	<o name="mine_pit_E" class="Pit" />
+	<o name="mine_pit_end_W" class="Pit" />
+	<o name="mine_pit_end_E" class="Pit" />
+	<o name="mine_pit_end_N" class="Pit" />
+	<o name="mine_pit_end_S" class="Pit" />
+	<o name="mine_pit_W" class="Pit" />
+	<o name="mine_pit_empty" class="Pit" />
+	<o name="mine_shaft_empty" class="Decoration" />
+	<o name="mine_shaft_N" class="Decoration" />
+	<o name="mine_shaft_S" class="Decoration" />
+	<o name="mine_shaft_W" class="Decoration" />
+	<o name="mine_shaft_E" class="Decoration" />
+	<o name="mine_shaft_corner_NE" class="Decoration" />
+	<o name="mine_shaft_corner_SW" class="Decoration" />
+	<o name="mine_shaft_corner_SE" class="Decoration" />
+	<o name="mine_shaft_corner_NW" class="Decoration" />
+	<o name="mine_shaft_endcap_N" class="Decoration" />
+	<o name="mine_shaft_endcap_S" class="Decoration" />
+	<o name="mine_shaft_endcap_W" class="Decoration" />
+	<o name="mine_shaft_endcap_E" class="Decoration" />
+	<o name="mine_shaft_cornerout_NE" class="Decoration" />
+	<o name="mine_shaft_cornerout_NW" class="Decoration" />
+	<o name="mine_shaft_cornerout_SE" class="Decoration" />
+	<o name="mine_shaft_cornerout_SW" class="Decoration" />
+	<o name="mine_rock_blockage01" class="Blockage" />
+	<o name="mine_rock_blockage02" class="Blockage" />
+	<o name="mine_rock_blockage03" class="Blockage" />
+	<o name="mine_rock_waste01" class="Blockage" />
+	<o name="mine_rock_waste02" class="Blockage" />
+	<o name="mine_cart_rail01" class="Blockage" />
+	<o name="mine_cart_rail02" class="Blockage" />
+	<o name="mine_cart01" class="Blockage" />
+	<o name="mine_cart02" class="Blockage" />
+	<o name="mine_crates_blockage01" class="Blockage" />
+	<o name="mine_crates_blockage02" class="Blockage" />
+	<o name="mine_warning_block" class="Blockage" />
+	<o name="mine_beds01" class="Blockage" />
+	<o name="mine_beds02" class="Blockage" />
+	<o name="mine_table" class="Altar" />
+	<o name="mine_volcano01" class="Blockage" />
+	<o name="mine_volcano02" class="Blockage" />
+	<o name="mine_smoker01" class="Blockage" />
+	<o name="mine_smoker02" class="Blockage" />
+	<o name="mine_rail_2way01" class="Decoration" />
+	<o name="mine_rail_2way02" class="Decoration" />
+	<o name="mine_rail_2way03" class="Decoration" />
+	<o name="mine_rail_corner01" class="Decoration" />
+	<o name="mine_rail_3way01" class="Decoration" />
+	<o name="mine_rail_endcap01" class="Decoration" />
+	<o name="mine_wall_grating" class="Door" />
+	<o name="mine_door_portcullis" class="Door" />
+	<o name="mine_door_portcullis_rail" class="Door" />
+	<o name="mine_door_wooden" class="Door" />
+	<o name="mine_secret_door" class="Door" />
+	<o name="mine_door_iron" class="Door" />
+	<o name="mine_emitter_volcano01" class="LightSource" />
+	<o name="mine_emitter_volcano02" class="LightSource" />
+	<o name="mine_emitter_smoker01" class="LightSource" />
+	<o name="mine_emitter_smoker02" class="LightSource" />
+	<!-- mod_assets/scripts/mine/mine_wall_sets.lua -->
+	<!-- mod_assets/scripts/mine/mine_materials.lua -->
+	<!-- mod_assets/scripts/mine/mine_sounds.lua -->
+	<!-- mod_assets/scripts/recipes.lua -->
+	<!-- mod_assets/scripts/spells.lua -->
+	<!-- mod_assets/scripts/materials.lua -->
+	<!-- mod_assets/scripts/particles.lua -->
+	<!-- mod_assets/scripts/sounds.lua -->
+	<!-- mod_assets/scripts/animation_events.lua -->
+	<!-- mod_assets/chest/chest.lua -->
+	<o name="internal_chestpit" class="Pit" />
+	<o name="internal_chestpit_dark" class="Pit" />
+	<o name="internal_chestbutton" class="Button" />
+	<o name="internal_chestblockage" class="Blockage" />
+	<o name="treasure_chest" class="ScriptEntity" />
+	<o name="treasure_chest_dark" class="ScriptEntity" />
+	<o name="mimic" clone="tentacles" />
+	<o name="chest_floor_dungeon" class="Decoration" />
+	<o name="chest_floor_temple" class="Decoration" />
+	<o name="chest_floor_prison" class="Decoration" />
+	<!-- mod_assets/lol_gobelins/scripts/objects.lua -->
+	<o name="gobelin_green" class="WallTapestry" />
+	<o name="gobelin_crimson" class="WallTapestry" />
+	<o name="gobelin_blue" class="WallTapestry" />
+	<o name="gobelin_unicorns" class="WallTapestry" />
+	<!-- mod_assets/lol_gobelins/scripts/materials.lua -->
+	<!-- mod_assets/models/lanterns/lanterns.lua -->
+	<o name="lantern_torch_holder" class="TorchHolder" />
+	<o name="marble_lantern" class="TorchHolder" />
+	<o name="obsidian_lantern" class="TorchHolder" />
+	<o name="iron_lantern" class="TorchHolder" />
+	<o name="temple_lantern" class="TorchHolder" />
+	<o name="dungeon_lantern" class="TorchHolder" />
+	<o name="chainmail_lantern" class="TorchHolder" />
+	<o name="rock_lantern" class="TorchHolder" />
+	<o name="stone_lantern" class="TorchHolder" />
+	<o name="hellish_lantern" class="TorchHolder" />
+	<o name="wood_lantern --doesn't make sense but looks good." class="TorchHolder" />
+	<o name="cube_lantern" class="TorchHolder" />
+	<o name="fancy_lantern" class="TorchHolder" />
+	<o name="stone_lantern2" class="TorchHolder" />
+	<o name="prison_lantern" class="TorchHolder" />
+	<o name="dark_rock_lantern" class="TorchHolder" />
+	<o name="light_rock_lantern" class="TorchHolder" />
+	<o name="amber_lantern" class="TorchHolder" />
+	<o name="junk_lantern" class="TorchHolder" />
+	<o name="fancy_lantern2" class="TorchHolder" />
+	<o name="dragon_lantern" class="TorchHolder" />
+	<o name="mosaic_lantern" class="TorchHolder" />
+	<!-- mod_assets/scripts/cozy.lua -->
+	<o name="temple_bookshelf_01" class="Decoration" />
+	<o name="temple_bookshelf_02" class="Decoration" />
+	<o name="temple_bookshelf_alcove" class="Alcove" />
+	<o name="table_chairs" class="Decoration" />
+	<o name="table_chairs_cushion" class="Decoration" />
+	<o name="dishes_01" class="Decoration" />
+	<o name="table_altar" class="Altar" />
+	<o name="table_blockage" class="Blockage" />
+	<!-- mod_assets/scripts/grimqobjects.lua -->
+	<o name="auto_printer" class="Item" subclasses="placeholder" />
+	<!-- mod_assets/scripts/sx_extra_lanterns.lua -->
+	<o name="sx_goromorg_lantern_light" class="LightSource" />
+	<o name="sx_floor_lantern_light" class="LightSource" />
+	<o name="sx_dungeon_goromorg_lantern" class="Decoration" />
+	<o name="sx_dungeon_goromorg_dark_lantern" class="Decoration" />
+	<o name="sx_temple_goromorg_dark_lantern" class="Decoration" />
+	<o name="sx_temple_goromorg_lantern" class="Decoration" />
+	<o name="sx_floor_lantern" class="Altar" />
+	<o name="sx_floor_lantern_dark" class="Altar" />
+	<!-- mod_assets/scripts/particles_and_teleporters.lua -->
+	<!-- mod_assets/scripts/objects/teleporters.lua -->
+	<o name="teleporter_red_01" class="Teleporter" />
+	<o name="teleporter_green_01" class="Teleporter" />
+	<o name="teleporter_blue_01" class="Teleporter" />
+	<o name="teleporter_yellow_01" class="Teleporter" />
+	<o name="teleporter_purple_01" class="Teleporter" />
+	<o name="teleporter_cyan_01" class="Teleporter" />
+	<o name="teleporter_white_01" class="Teleporter" />
+	<o name="teleporter_white_02" class="Teleporter" />
+	<o name="teleporter_white_03" class="Teleporter" />
+	<o name="telefaker_green_01" class="LightSource" />
+	<o name="telefaker_white_01" class="LightSource" />
+	<!-- mod_assets/plugins/slugomorg/slugomorg.lua -->
+	<o name="leki_slugomorg_melee" class="Monster" />
+	<!-- mod_assets/plugins/skeleton_warrior_sword/skeleton_warrior_sword.lua -->
+	<o name="leki_skeleton_warrior_sword" class="Monster" />
+	<o name="leki_skeleton_warrior_sword_patrol_4" class="MonsterGroup" />
+	<o name="leki_skeleton_warrior_sword_patrol_2" class="MonsterGroup" />
+	<!-- mod_assets/plugins/beholder/beholder.lua -->
+	<o name="leki_beholder_red" class="Monster" />
+	<o name="leki_beholder_black" class="Monster" />
+	<o name="leki_beholder_yellow" class="Monster" />
+	<o name="leki_beholder_green" class="Monster" />
+	<!-- mod_assets/wall_plaques/scripts/wall_plaques.lua -->
+	<o name="temple_catacomb_plaque_low" class="WallText" />
+	<o name="temple_catacomb_plaque_high" class="WallText" />
+	<o name="dungeon_catacomb_plaque_low" class="WallText" />
+	<o name="dungeon_catacomb_plaque_high" class="WallText" />
+	<o name="dungeon_wall_plaque" class="WallText" />
+	<o name="temple_wall_plaque" class="WallText" />
+	<o name="prison_wall_plaque" class="WallText" />
+	<o name="temple_catacomb_plaque_low_weathered" class="WallText" />
+	<o name="temple_catacomb_plaque_high_weathered" class="WallText" />
+	<o name="dungeon_catacomb_plaque_low_weathered" class="WallText" />
+	<o name="dungeon_catacomb_plaque_high_weathered" class="WallText" />
+	<o name="dungeon_wall_plaque_weathered" class="WallText" />
+	<o name="temple_wall_plaque_weathered" class="WallText" />
+	<o name="prison_wall_plaque_weathered" class="WallText" />
+	<!-- mod_assets/sx_water_fountains/scripts/sx_waterfountains.lua -->
+	<o name="sx_temple_fountain_flowing" class="Decoration" />
+	<o name="sx_temple_fountain_static" class="Decoration" />
+	<o name="sx_temple_fountain_empty" class="Decoration" />
+	<o name="sx_temple_fountain_poison" class="Decoration" />
+	<o name="sx_dungeon_fountain_flowing" class="Decoration" />
+	<o name="sx_dungeon_fountain_static" class="Decoration" />
+	<o name="sx_dungeon_fountain_empty" class="Decoration" />
+	<o name="sx_fountain_floor" class="Altar" />
+	<o name="sx_fountain_effect" class="LightSource" />
+	<o name="sx_fountain_effect_poison" class="LightSource" />
+	<!-- mod_assets/log_carpets/log_carpets.lua -->
+	<o name="log_carpet_a" class="Decoration" />
+	<o name="log_carpet_b" class="Decoration" />
+	<!-- mod_assets/pandafox_assets/flydragon/flydragon.lua -->
+	<o name="flydragon" class="Monster" />
+	<!-- mod_assets/pandafox_assets/skeleton_ghost/skeleton_ghost.lua -->
+	<o name="skeleton_ghost_inv" class="Monster" />
+	<o name="skeleton_ghost" clone="skeleton_ghost_inv" />
+	<o name="skeleton_ghost_dream" clone="skeleton_ghost_inv" />
+	<!-- mod_assets/cultist/scripts/monsters.lua -->
+	<o name="cultist" class="Monster" />
+	<!-- mod_assets/cultist/scripts/materials.lua -->
+	<!-- mod_assets/impaleds/scripts/skeletons_impaled.lua -->
+	<o name="sx_skeleton_impaled" class="Decoration" />
+	<o name="sx_skeleton_impaled_2" class="Decoration" />
+	<o name="sx_skeleton_impaled_3" class="Decoration" />
+	<o name="sx_skeleton_chained" class="Decoration" />
+	<o name="sx_skeleton_chained_2" class="Decoration" />
+	<!-- mod_assets/neikun/neikun.lua -->
+	<!-- mod_assets/neikun/ghost_skeleton_archer_materials.lua -->
+	<!-- mod_assets/neikun/ghost_skeleton_archer_montsers.lua -->
+	<o name="skeleton_archer_shadow_inv" class="Monster" />
+	<o name="skeleton_archer_shadow" clone="skeleton_archer_shadow_inv" />
+	<o name="skeleton_archer_dream" clone="skeleton_archer_shadow_inv" />
+	<!-- mod_assets/neikun/ghost_skeleton_archer_particles.lua -->
+	<!-- mod_assets/neikun/isgardian_particles.lua -->
+	<!-- mod_assets/neikun/materials.lua -->
+	<!-- mod_assets/neikun/monsters.lua -->
+	<o name="isgardian" class="Monster" />
+	<!-- mod_assets/neikun/sounds.lua -->
+	<!-- mod_assets/mam/scripts/init.lua -->
+	<!-- mod_assets/mam/scripts/items.lua -->
+	<o name="big_rock" class="Item" />
+	<o name="short_sword" class="Item" subclasses="sword" />
+	<!-- mod_assets/mam/scripts/objects.lua -->
+	<o name="mam_sound_TorchBurning" clone="dungeon_wall_grating" />
+	<o name="torch_holder_ALCOVED" class="Alcove" />
+	<o name="mamTha_Gem" class="Alcove" />
+	<o name="mamTha_Helm" clone="mamTha_Gem" />
+	<o name="mamTha_Torch" clone="mamTha_Gem" />
+	<o name="mamTha_Orb" clone="mamTha_Gem" />
+	<o name="mamTha_Shield" clone="mamTha_Gem" />
+	<o name="mamTha_Scroll" clone="mamTha_Gem" />
+	<o name="pile_ALCOVED" class="Alcove" />
+	<o name="mamPile_1_1" clone="mamTha_Gem" />
+	<o name="mamPile_1_2" clone="mamTha_Gem" />
+	<o name="mamPile_1_3" clone="mamTha_Gem" />
+	<o name="mamPile_2_1" clone="mamTha_Gem" />
+	<o name="weapons_rack_ALCOVED" class="Alcove" />
+	<o name="mamWr_1_pole" clone="mamTha_Gem" />
+	<o name="mamWr_1_pole2" clone="mamTha_Gem" />
+	<o name="mamWr_2_1_sword" clone="mamTha_Gem" />
+	<o name="mamWr_2_2_sword" clone="mamTha_Gem" />
+	<o name="mamWr_2_3_sword" clone="mamTha_Gem" />
+	<o name="mamWr_2_4_sword" clone="mamTha_Gem" />
+	<o name="mamWr_2_5_sword" clone="mamTha_Gem" />
+	<o name="mamWr_2_6_sword" clone="mamTha_Gem" />
+	<o name="mamWr_2_7_sword" clone="mamTha_Gem" />
+	<o name="mamWr_2_1_sword2" clone="mamTha_Gem" />
+	<o name="mamWr_2_3_sword2" clone="mamTha_Gem" />
+	<o name="mamWr_2_5_sword2" clone="mamTha_Gem" />
+	<o name="mamWr_2_7_sword2" clone="mamTha_Gem" />
+	<o name="mamWr_2_1_sword3" clone="mamTha_Gem" />
+	<o name="mamWr_2_3_sword3" clone="mamTha_Gem" />
+	<o name="mamWr_2_5_sword3" clone="mamTha_Gem" />
+	<o name="mamWr_2_7_sword3" clone="mamTha_Gem" />
+	<o name="mamWr_2_1_sword4" clone="mamTha_Gem" />
+	<o name="mamWr_2_3_sword4" clone="mamTha_Gem" />
+	<o name="mamWr_2_5_sword4" clone="mamTha_Gem" />
+	<o name="mamWr_2_7_sword4" clone="mamTha_Gem" />
+	<o name="mamWr_3_1_staff" clone="mamTha_Gem" />
+	<o name="mamWr_3_2_staff" clone="mamTha_Gem" />
+	<o name="mamWr_3_1_staff2" clone="mamTha_Gem" />
+	<o name="mamWr_3_2_staff2" clone="mamTha_Gem" />
+	<o name="mamWr_2_2_axe1" clone="mamTha_Gem" />
+	<o name="mamWr_2_4_axe1" clone="mamTha_Gem" />
+	<o name="mamWr_2_6_axe1" clone="mamTha_Gem" />
+	<o name="mamWr_2_7_axe2" clone="mamTha_Gem" />
+	<o name="mamWr_2_2_dagger" clone="mamTha_Gem" />
+	<o name="mamWr_2_3_dagger" clone="mamTha_Gem" />
+	<o name="mamWr_2_4_dagger" clone="mamTha_Gem" />
+	<o name="mamWr_2_5_dagger" clone="mamTha_Gem" />
+	<o name="mamWr_2_6_dagger" clone="mamTha_Gem" />
+	<o name="mamWr_3_1_flail" clone="mamTha_Gem" />
+	<o name="mamWr_1_cross" clone="mamTha_Gem" />
+	<o name="mamWr_2_7_bow" clone="mamTha_Gem" />
+	<o name="mamWr_2_mstar" clone="mamTha_Gem" />
+	<o name="mamWr_3_dart" clone="mamTha_Gem" />
+	<o name="mamWr_3_dart2" clone="mamTha_Gem" />
+	<o name="mamWr_3_thkf" clone="mamTha_Gem" />
+	<o name="mamWr_3_thkf2" clone="mamTha_Gem" />
+	<o name="mamWr_3_shur" clone="mamTha_Gem" />
+	<o name="mamWr_3_shur2" clone="mamTha_Gem" />
+	<o name="mamWr_3_thaxe" clone="mamTha_Gem" />
+	<o name="mamWr_3_thaxe" clone="mamTha_Gem" />
+	<o name="mamWr_1_arrow" clone="mamTha_Gem" />
+	<o name="sword_rack_ALCOVED" class="Alcove" />
+	<o name="mamSr_1_sword" clone="mamTha_Gem" />
+	<o name="mamSr_2_sword" clone="mamTha_Gem" />
+	<o name="mamSr_3_sword" clone="mamTha_Gem" />
+	<o name="mamSr_4_sword" clone="mamTha_Gem" />
+	<o name="mamSr_5_sword" clone="mamTha_Gem" />
+	<o name="mamSr_6_sword" clone="mamTha_Gem" />
+	<o name="mamSr_7_sword" clone="mamTha_Gem" />
+	<o name="mamSr_8_sword" clone="mamTha_Gem" />
+	<o name="mamSr_1_sword2" clone="mamTha_Gem" />
+	<o name="mamSr_2_sword2" clone="mamTha_Gem" />
+	<o name="mamSr_3_sword2" clone="mamTha_Gem" />
+	<o name="mamSr_4_sword2" clone="mamTha_Gem" />
+	<o name="mamSr_5_sword2" clone="mamTha_Gem" />
+	<o name="mamSr_6_sword2" clone="mamTha_Gem" />
+	<o name="mamSr_7_sword2" clone="mamTha_Gem" />
+	<o name="mamSr_8_sword2" clone="mamTha_Gem" />
+	<o name="mamSr_1_sword3" clone="mamTha_Gem" />
+	<o name="mamSr_2_sword3" clone="mamTha_Gem" />
+	<o name="mamSr_3_sword3" clone="mamTha_Gem" />
+	<o name="mamSr_4_sword3" clone="mamTha_Gem" />
+	<o name="mamSr_5_sword3" clone="mamTha_Gem" />
+	<o name="mamSr_6_sword3" clone="mamTha_Gem" />
+	<o name="mamSr_7_sword3" clone="mamTha_Gem" />
+	<o name="mamSr_8_sword3" clone="mamTha_Gem" />
+	<o name="mamSr_1_sword4" clone="mamTha_Gem" />
+	<o name="mamSr_2_sword4" clone="mamTha_Gem" />
+	<o name="mamSr_3_sword4" clone="mamTha_Gem" />
+	<o name="mamSr_4_sword4" clone="mamTha_Gem" />
+	<o name="mamSr_5_sword4" clone="mamTha_Gem" />
+	<o name="mamSr_6_sword4" clone="mamTha_Gem" />
+	<o name="mamSr_7_sword4" clone="mamTha_Gem" />
+	<o name="mamSr_8_sword4" clone="mamTha_Gem" />
+	<o name="mamSr_1_sword5" clone="mamTha_Gem" />
+	<o name="mamSr_2_sword5" clone="mamTha_Gem" />
+	<o name="mamSr_3_sword5" clone="mamTha_Gem" />
+	<o name="mamSr_4_sword5" clone="mamTha_Gem" />
+	<o name="mamSr_5_sword5" clone="mamTha_Gem" />
+	<o name="mamSr_6_sword5" clone="mamTha_Gem" />
+	<o name="mamSr_7_sword5" clone="mamTha_Gem" />
+	<o name="armor_rack_ALCOVED" class="Alcove" />
+	<o name="mamAr_helm" clone="mamTha_Gem" />
+	<o name="mamAr_helm2" clone="mamTha_Gem" />
+	<o name="mamAr_helm3" clone="mamTha_Gem" />
+	<o name="mamAr_cuirass" clone="mamTha_Gem" />
+	<o name="mamAr_cuirass2" clone="mamTha_Gem" />
+	<o name="mamAr_cuirass3" clone="mamTha_Gem" />
+	<o name="mamAr_greaves" clone="mamTha_Gem" />
+	<o name="mamAr_greaves2" clone="mamTha_Gem" />
+	<o name="mamAr_greaves3" clone="mamTha_Gem" />
+	<o name="mamAr_boots" clone="mamTha_Gem" />
+	<o name="mamAr_gloves" clone="mamTha_Gem" />
+	<o name="mamAr_shield" clone="mamTha_Gem" />
+	<o name="mamAr_hat" clone="mamTha_Gem" />
+	<o name="mamAr_top" clone="mamTha_Gem" />
+	<o name="mamAr_pants" clone="mamTha_Gem" />
+	<o name="sword_bell_ALCOVED" class="Alcove" />
+	<o name="mamSb_1" clone="mamTha_Gem" />
+	<o name="mamSb_2" clone="mamTha_Gem" />
+	<o name="mamSb_3" clone="mamTha_Gem" />
+	<o name="mamSb_4" clone="mamTha_Gem" />
+	<o name="mamSb_5" clone="mamTha_Gem" />
+	<!-- mod_assets/mam/scripts/sounds.lua -->
+	<!-- mod_assets/mam/scripts/particles.lua -->
+	<o name="mamFxTorch" class="LightSource" />
+</Assets>
+

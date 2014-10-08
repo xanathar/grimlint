@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Config>
+	<Rules>
+		<ActionableHasNoConnectors enabled="yes" ignoreKnownNames="yes" />
+		<DoorHasNoConnectorOrPullChain enabled="yes" ignore="*_wall_grating,*_secret_door" ignoreKnownNames="yes" />
+		<AlcoveHasItems enabled="yes" ignore="auto_*,eye_socket_left,eye_socket_right,mouth_socket,dungeon_prison_bench_alcove" ignoreKnownNames="yes" />
+	</Rules>
+</Config>

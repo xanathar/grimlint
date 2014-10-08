@@ -1,0 +1,384 @@
+﻿<Assets>
+	<!-- C:\gr\assets\scripts\objects.lua -->
+	<o name="party" class="Party" />
+	<o name="starting_location" class="StartingLocation" />
+	<o name="dungeon_door_portcullis" class="Door" />
+	<o name="dungeon_door_wooden" class="Door" />
+	<o name="dungeon_door_wooden_locked" class="Door" />
+	<o name="dungeon_door_iron" class="Door" />
+	<o name="dungeon_door_metal" class="Door" />
+	<o name="dungeon_door_ornament" class="Door" />
+	<o name="temple_door_portcullis" class="Door" />
+	<o name="temple_door_wooden" class="Door" />
+	<o name="temple_door_wooden_locked" class="Door" />
+	<o name="temple_door_iron" class="Door" />
+	<o name="temple_door_metal" class="Door" />
+	<o name="temple_door_ornament" class="Door" />
+	<o name="prison_door_metal" class="Door" />
+	<o name="prison_door_portcullis" class="Door" />
+	<o name="dungeon_wall_grating" class="Door" />
+	<o name="temple_wall_grating" class="Door" />
+	<o name="dungeon_secret_door" class="Door" />
+	<o name="temple_secret_door" class="Door" />
+	<o name="prison_secret_door" class="Door" />
+	<o name="wall_button" class="Button" />
+	<o name="dungeon_secret_button_large" class="Button" />
+	<o name="dungeon_secret_button_small" class="Button" />
+	<o name="temple_secret_button_large" class="Button" />
+	<o name="temple_secret_button_small" class="Button" />
+	<o name="temple_secret_button_tiny" class="Button" />
+	<o name="prison_secret_button_small" class="Button" />
+	<o name="lever" class="Lever" />
+	<o name="dungeon_pressure_plate" class="PressurePlate" />
+	<o name="temple_pressure_plate" class="PressurePlate" />
+	<o name="prison_pressure_plate" class="PressurePlate" />
+	<o name="pressure_plate_hidden" class="PressurePlate" />
+	<o name="dungeon_alcove" class="Alcove" />
+	<o name="temple_alcove" class="Alcove" />
+	<o name="prison_alcove" class="Alcove" />
+	<o name="daemon_head_eye_slots" class="Decoration" />
+	<o name="eye_socket_left" class="Alcove" />
+	<o name="eye_socket_right" class="Alcove" />
+	<o name="mouth_socket" class="Alcove" />
+	<o name="torch_holder" class="TorchHolder" />
+	<o name="temple_ceiling_lamp" class="LightSource" />
+	<o name="prison_ceiling_lamp" class="LightSource" />
+	<o name="dungeon_pit" class="Pit" />
+	<o name="temple_pit" class="Pit" />
+	<o name="prison_pit" class="Pit" />
+	<o name="teleporter" class="Teleporter" />
+	<o name="dungeon_stairs_down" class="Stairs" />
+	<o name="dungeon_stairs_up" class="Stairs" />
+	<o name="temple_stairs_down" class="Stairs" />
+	<o name="temple_stairs_up" class="Stairs" />
+	<o name="prison_stairs_down" class="Stairs" />
+	<o name="prison_stairs_up" class="Stairs" />
+	<o name="dungeon_wall_text" class="WallText" />
+	<o name="dungeon_wall_text_long" class="WallText" />
+	<o name="temple_wall_text" class="WallText" />
+	<o name="temple_wall_text_long" class="WallText" />
+	<o name="prison_wall_text" class="WallText" />
+	<o name="prison_wall_text_long" class="WallText" />
+	<o name="dungeon_floor_drainage" class="Decoration" />
+	<o name="dungeon_wall_drainage" class="Decoration" />
+	<o name="temple_floor_drainage" class="Decoration" />
+	<o name="temple_wall_drainage" class="Decoration" />
+	<o name="prison_floor_drainage" class="Decoration" />
+	<o name="dungeon_ceiling_shaft" class="Decoration" />
+	<o name="temple_ceiling_shaft" class="Decoration" />
+	<o name="prison_ceiling_shaft" class="Decoration" />
+	<o name="daemon_head" class="Decoration" />
+	<o name="prison_bench" class="Decoration" />
+	<o name="floor_corpse" class="Decoration" />
+	<o name="floor_dirt" class="Decoration" />
+	<o name="dungeon_spider_web_1" class="Decoration" />
+	<o name="dungeon_spider_web_2" class="Decoration" />
+	<o name="dungeon_spider_web_3" class="Decoration" />
+	<o name="dungeon_spider_web_4" class="Decoration" />
+	<o name="dungeon_ivy_1" class="Decoration" />
+	<o name="dungeon_ivy_2" class="Decoration" />
+	<o name="dungeon_ceiling_root_1" class="Decoration" />
+	<o name="dungeon_ceiling_root_2" class="Decoration" />
+	<o name="dungeon_ceiling_root_3" class="Decoration" />
+	<o name="dungeon_wall_dirt_1" class="Decoration" />
+	<o name="dungeon_wall_dirt_2" class="Decoration" />
+	<o name="barrel_crate_block" class="Blockage" />
+	<o name="spider_eggs" class="Blockage" />
+	<o name="metal_junk_block" class="Blockage" />
+	<o name="dragon_statue" class="Blockage" />
+	<o name="goromorg_fourway" class="Blockage" />
+	<o name="goromorg_fourway_dark" class="Blockage" />
+	<o name="dungeon_cave_in" class="Blockage" />
+	<o name="dungeon_cave_in_ceiling" class="Decoration" />
+	<o name="temple_cave_in" class="Blockage" />
+	<o name="temple_cave_in_ceiling" class="Decoration" />
+	<o name="prison_cave_in" class="Blockage" />
+	<o name="prison_cave_in_ceiling" class="Decoration" />
+	<o name="altar" class="Altar" />
+	<o name="dungeon_goromorg_statue" class="Decoration" />
+	<o name="temple_goromorg_statue" class="Decoration" />
+	<o name="prison_goromorg_statue" class="Decoration" />
+	<o name="temple_gladiator_statue_spear" class="Decoration" />
+	<o name="temple_gladiator_statue_flail" class="Decoration" />
+	<o name="temple_gladiator_statue_sword" class="Decoration" />
+	<o name="temple_gladiator_statue_axe" class="Decoration" />
+	<o name="dungeon_catacomb_empty" class="Decoration" />
+	<o name="dungeon_catacomb_skeleton_up" class="Decoration" />
+	<o name="dungeon_catacomb_skeleton_down" class="Decoration" />
+	<o name="temple_catacomb_empty" class="Decoration" />
+	<o name="temple_catacomb_skeleton_up" class="Decoration" />
+	<o name="temple_catacomb_skeleton_down" class="Decoration" />
+	<o name="dungeon_pillar" class="Decoration" />
+	<o name="temple_pillar" class="Decoration" />
+	<o name="prison_pillar" class="Decoration" />
+	<o name="gobelin" class="WallTapestry" />
+	<o name="temple_mosaic_wall_1" class="Decoration" />
+	<o name="temple_mosaic_wall_2" class="Decoration" />
+	<o name="temple_glass_wall_1" class="Decoration" />
+	<o name="temple_glass_wall_2" class="Decoration" />
+	<o name="temple_glass_wall_3" class="Decoration" />
+	<o name="prison_wall_1" class="Decoration" />
+	<o name="prison_wall_2" class="Decoration" />
+	<o name="prison_wall_3" class="Decoration" />
+	<o name="prison_wall_4" class="Decoration" />
+	<o name="prison_wall_5" class="Decoration" />
+	<o name="prison_wall_6" class="Decoration" />
+	<o name="prison_wall_7" class="Decoration" />
+	<o name="receptor" class="Receptor" />
+	<o name="receptor_hidden" class="Receptor" />
+	<o name="lock" class="Lock" />
+	<o name="lock_round" class="Lock" />
+	<o name="lock_ornate" class="Lock" />
+	<o name="lock_golden" class="Lock" />
+	<o name="lock_gear" class="Lock" />
+	<o name="lock_prison" class="Lock" />
+	<o name="healing_crystal" class="Crystal" />
+	<o name="timer" class="Timer" />
+	<o name="counter" class="Counter" />
+	<o name="spawner" class="Spawner" />
+	<o name="blocker" class="Blocker" />
+	<o name="fx" class="FX" />
+	<o name="secret" class="Secret" />
+	<o name="map_marker" class="MapMarker" />
+	<o name="script_entity" class="ScriptEntity" />
+	<o name="fireburst" class="BurstSpell" />
+	<o name="shockburst" class="BurstSpell" />
+	<o name="frostburst" class="BurstSpell" />
+	<o name="fireball" class="ProjectileSpell" />
+	<o name="fireball_greater" class="ProjectileSpell" />
+	<o name="poison_bolt" class="ProjectileSpell" />
+	<o name="poison_bolt_greater" class="ProjectileSpell" />
+	<o name="frostbolt" class="ProjectileSpell" />
+	<o name="improved_frostbolt" class="ProjectileSpell" />
+	<o name="ice_shards" class="IceShards" />
+	<o name="lightning_bolt" class="ProjectileSpell" />
+	<o name="lightning_bolt_greater" class="ProjectileSpell" />
+	<o name="powerbolt" class="ProjectileSpell" />
+	<o name="poison_cloud" class="PoisonCloud" />
+	<o name="blob" class="Blob" />
+	<!-- C:\gr\assets\scripts\items.lua -->
+	<o name="torch" class="Item" subclasses="improvisedweapon" />
+	<o name="torch_everburning" class="Item" subclasses="improvisedweapon" />
+	<o name="machete" class="Item" subclasses="sword" />
+	<o name="long_sword" class="Item" subclasses="sword" />
+	<o name="cutlass" class="Item" subclasses="sword" />
+	<o name="nex_sword" class="Item" subclasses="sword" />
+	<o name="dismantler" class="Item" subclasses="sword" />
+	<o name="cudgel" class="Item" subclasses="mace" />
+	<o name="knoffer" class="Item" subclasses="mace" />
+	<o name="warhammer" class="Item" subclasses="mace" />
+	<o name="flail" class="Item" subclasses="mace" />
+	<o name="ogre_hammer" class="Item" subclasses="mace" />
+	<o name="icefall_hammer" class="Item" subclasses="mace" />
+	<o name="hand_axe" class="Item" subclasses="axe" />
+	<o name="battle_axe" class="Item" subclasses="axe" />
+	<o name="great_axe" class="Item" subclasses="axe" />
+	<o name="ancient_axe" class="Item" subclasses="axe" />
+	<o name="knife" class="Item" subclasses="dagger" />
+	<o name="dagger" class="Item" subclasses="dagger" />
+	<o name="fist_dagger" class="Item" subclasses="dagger" />
+	<o name="assassin_dagger" class="Item" subclasses="dagger" />
+	<o name="legionary_spear" class="Item" subclasses="improvisedweapon" />
+	<o name="venom_edge" class="Item" subclasses="dagger,magicweapon" />
+	<o name="venom_edge_empty" class="Item" subclasses="dagger,magicweapon" />
+	<o name="lightning_blade" class="Item" subclasses="magicweapon" />
+	<o name="lightning_blade_empty" class="Item" subclasses="magicweapon" />
+	<o name="lightning_rod" class="Item" subclasses="magicweapon" />
+	<o name="lightning_rod_empty" class="Item" subclasses="magicweapon" />
+	<o name="fire_blade" class="Item" subclasses="magicweapon" />
+	<o name="fire_blade_empty" class="Item" subclasses="magicweapon" />
+	<o name="power_weapon" class="Item" subclasses="magicweapon" />
+	<o name="peasant_breeches" class="Item" subclasses="cloth" />
+	<o name="peasant_tunic" class="Item" subclasses="cloth" />
+	<o name="peasant_cap" class="Item" subclasses="cloth" />
+	<o name="loincloth" class="Item" subclasses="cloth" />
+	<o name="leather_pants" class="Item" subclasses="cloth" />
+	<o name="doublet" class="Item" subclasses="cloth" />
+	<o name="silk_hose" class="Item" subclasses="cloth" />
+	<o name="flarefeather_cap" class="Item" subclasses="cloth" />
+	<o name="conjurers_hat" class="Item" subclasses="cloth" />
+	<o name="circlet_war" class="Item" subclasses="cloth" />
+	<o name="lurker_pants" class="Item" subclasses="cloth" />
+	<o name="lurker_vest" class="Item" subclasses="cloth" />
+	<o name="lurker_hood" class="Item" subclasses="cloth" />
+	<o name="lurker_boots" class="Item" subclasses="cloth" />
+	<o name="sandals" class="Item" subclasses="cloth" />
+	<o name="pointy_shoes" class="Item" subclasses="cloth" />
+	<o name="nomad_boots" class="Item" subclasses="cloth" />
+	<o name="hide_vest" class="Item" subclasses="armor" />
+	<o name="leather_brigandine" class="Item" subclasses="armor" />
+	<o name="leather_greaves" class="Item" subclasses="armor" />
+	<o name="leather_cap" class="Item" subclasses="armor" />
+	<o name="leather_boots" class="Item" subclasses="armor" />
+	<o name="ring_mail" class="Item" subclasses="armor" />
+	<o name="ring_greaves" class="Item" subclasses="armor" />
+	<o name="ring_gauntlets" class="Item" subclasses="armor" />
+	<o name="ring_boots" class="Item" subclasses="armor" />
+	<o name="legionary_helmet" class="Item" subclasses="armor" />
+	<o name="iron_basinet" class="Item" subclasses="armor" />
+	<o name="chitin_mail" class="Item" subclasses="armor" />
+	<o name="chitin_greaves" class="Item" subclasses="armor" />
+	<o name="chitin_boots" class="Item" subclasses="armor" />
+	<o name="chitin_mask" class="Item" subclasses="armor" />
+	<o name="plate_cuirass" class="Item" subclasses="armor" />
+	<o name="plate_greaves" class="Item" subclasses="armor" />
+	<o name="full_helmet" class="Item" subclasses="armor" />
+	<o name="plate_gauntlets" class="Item" subclasses="armor" />
+	<o name="plate_boots" class="Item" subclasses="armor" />
+	<o name="cuirass_valor" class="Item" subclasses="armor" />
+	<o name="greaves_valor" class="Item" subclasses="armor" />
+	<o name="helmet_valor" class="Item" subclasses="armor" />
+	<o name="gauntlets_valor" class="Item" subclasses="armor" />
+	<o name="boots_valor" class="Item" subclasses="armor" />
+	<o name="legionary_shield" class="Item" subclasses="shield" />
+	<o name="round_shield" class="Item" subclasses="shield" />
+	<o name="heavy_shield" class="Item" subclasses="shield" />
+	<o name="shield_elements" class="Item" subclasses="shield" />
+	<o name="shield_valor" class="Item" subclasses="shield" />
+	<o name="frostbite_necklace" class="Item" subclasses="accessory" />
+	<o name="bone_amulet" class="Item" subclasses="accessory" />
+	<o name="fire_torc" class="Item" subclasses="accessory" />
+	<o name="spirit_mirror_pendant" class="Item" subclasses="accessory" />
+	<o name="gear_necklace" class="Item" subclasses="accessory" />
+	<o name="hardstone_bracelet" class="Item" subclasses="accessory" />
+	<o name="bracelet_tirin" class="Item" subclasses="accessory" />
+	<o name="brace_fortitude" class="Item" subclasses="accessory" />
+	<o name="huntsman_cloak" class="Item" subclasses="accessory" />
+	<o name="tattered_cloak" class="Item" subclasses="accessory" />
+	<o name="scaled_cloak" class="Item" subclasses="accessory" />
+	<o name="diviner_cloak" class="Item" subclasses="accessory" />
+	<o name="serpent_bracer" class="Item" subclasses="accessory" />
+	<o name="pit_gauntlets" class="Item" subclasses="accessory" />
+	<o name="nomad_mittens" class="Item" subclasses="accessory" />
+	<o name="leather_gloves" class="Item" subclasses="accessory" />
+	<o name="whitewood_wand" class="Item" subclasses="staff" />
+	<o name="magic_orb" class="Item" subclasses="staff" />
+	<o name="shaman_staff" class="Item" subclasses="staff" />
+	<o name="zhandul_orb" class="Item" subclasses="staff" />
+	<o name="rock" class="Item" subclasses="throwingweapon" />
+	<o name="throwing_knife" class="Item" subclasses="throwingweapon" />
+	<o name="shuriken" class="Item" subclasses="throwingweapon" />
+	<o name="throwing_axe" class="Item" subclasses="throwingweapon" />
+	<o name="fire_bomb" class="Item" subclasses="bomb" />
+	<o name="shock_bomb" class="Item" subclasses="bomb" />
+	<o name="frost_bomb" class="Item" subclasses="bomb" />
+	<o name="poison_bomb" class="Item" subclasses="bomb" />
+	<o name="sling" class="Item" subclasses="missileweapon" />
+	<o name="short_bow" class="Item" subclasses="missileweapon" />
+	<o name="crossbow" class="Item" subclasses="missileweapon" />
+	<o name="longbow" class="Item" subclasses="missileweapon" />
+	<o name="arrow" class="Item" subclasses="missileweapon" />
+	<o name="fire_arrow" class="Item" subclasses="missileweapon" />
+	<o name="cold_arrow" class="Item" subclasses="missileweapon" />
+	<o name="poison_arrow" class="Item" subclasses="missileweapon" />
+	<o name="shock_arrow" class="Item" subclasses="missileweapon" />
+	<o name="quarrel" class="Item" subclasses="missileweapon" />
+	<o name="fire_quarrel" class="Item" subclasses="missileweapon" />
+	<o name="cold_quarrel" class="Item" subclasses="missileweapon" />
+	<o name="poison_quarrel" class="Item" subclasses="missileweapon" />
+	<o name="shock_quarrel" class="Item" subclasses="missileweapon" />
+	<o name="iron_key" class="Item" subclasses="key" />
+	<o name="brass_key" class="Item" subclasses="key" />
+	<o name="gold_key" class="Item" subclasses="key" />
+	<o name="round_key" class="Item" subclasses="key" />
+	<o name="ornate_key" class="Item" subclasses="key" />
+	<o name="gear_key" class="Item" subclasses="key" />
+	<o name="prison_key" class="Item" subclasses="key" />
+	<o name="tome_health" class="Item" subclasses="tome" />
+	<o name="tome_wisdom" class="Item" subclasses="tome" />
+	<o name="tome_fire" class="Item" subclasses="tome" />
+	<o name="scroll" class="Item" subclasses="scroll" />
+	<o name="note" class="Item" subclasses="scroll" />
+	<o name="scroll_light" class="Item" subclasses="scroll" />
+	<o name="scroll_darkness" class="Item" subclasses="scroll" />
+	<o name="scroll_fireburst" class="Item" subclasses="scroll" />
+	<o name="scroll_shock" class="Item" subclasses="scroll" />
+	<o name="scroll_fireball" class="Item" subclasses="scroll" />
+	<o name="scroll_frostbolt" class="Item" subclasses="scroll" />
+	<o name="scroll_ice_shards" class="Item" subclasses="scroll" />
+	<o name="scroll_poison_bolt" class="Item" subclasses="scroll" />
+	<o name="scroll_poison_cloud" class="Item" subclasses="scroll" />
+	<o name="scroll_lightning_bolt" class="Item" subclasses="scroll" />
+	<o name="scroll_enchant_fire_arrow" class="Item" subclasses="scroll" />
+	<o name="scroll_fire_shield" class="Item" subclasses="scroll" />
+	<o name="scroll_frost_shield" class="Item" subclasses="scroll" />
+	<o name="scroll_poison_shield" class="Item" subclasses="scroll" />
+	<o name="scroll_shock_shield" class="Item" subclasses="scroll" />
+	<o name="scroll_invisibility" class="Item" subclasses="scroll" />
+	<o name="skull" class="Item" subclasses="misc" />
+	<o name="blue_gem" class="Item" subclasses="misc" />
+	<o name="green_gem" class="Item" subclasses="misc" />
+	<o name="red_gem" class="Item" subclasses="misc" />
+	<o name="compass" class="Item" subclasses="misc" />
+	<o name="remains_of_toorum" class="Item" subclasses="misc" />
+	<o name="snail_slice" class="Item" subclasses="food" />
+	<o name="herder_cap" class="Item" subclasses="food" />
+	<o name="pitroot_bread" class="Item" subclasses="food" />
+	<o name="rotten_pitroot_bread" class="Item" subclasses="food" />
+	<o name="rat_shank" class="Item" subclasses="food" />
+	<o name="boiled_beetle" class="Item" subclasses="food" />
+	<o name="baked_maggot" class="Item" subclasses="food" />
+	<o name="ice_lizard_steak" class="Item" subclasses="food" />
+	<o name="mole_jerky" class="Item" subclasses="food" />
+	<o name="blueberry_pie" class="Item" subclasses="food" />
+	<o name="grim_cap" class="Item" subclasses="herb" />
+	<o name="tar_bead" class="Item" subclasses="herb" />
+	<o name="cave_nettle" class="Item" subclasses="herb" />
+	<o name="slime_bell" class="Item" subclasses="herb" />
+	<o name="blooddrop_blossom" class="Item" subclasses="herb" />
+	<o name="milkreed" class="Item" subclasses="herb" />
+	<o name="flask" class="Item" subclasses="potion" />
+	<o name="water_flask" class="Item" subclasses="potion" />
+	<o name="potion_healing" class="Item" subclasses="potion" />
+	<o name="potion_energy" class="Item" subclasses="potion" />
+	<o name="potion_poison" class="Item" subclasses="potion" />
+	<o name="potion_cure_poison" class="Item" subclasses="potion" />
+	<o name="potion_cure_disease" class="Item" subclasses="potion" />
+	<o name="potion_rage" class="Item" subclasses="potion" />
+	<o name="potion_speed" class="Item" subclasses="potion" />
+	<o name="sack" class="Item" subclasses="container" />
+	<o name="wooden_box" class="Item" subclasses="container" />
+	<o name="mortar" class="Item" subclasses="container" />
+	<o name="machine_part_north" class="Item" subclasses="machinepart" />
+	<o name="machine_part_east" class="Item" subclasses="machinepart" />
+	<o name="machine_part_south" class="Item" subclasses="machinepart" />
+	<o name="machine_part_west" class="Item" subclasses="machinepart" />
+	<o name="machine_junk1" class="Item" subclasses="machinepart" />
+	<o name="machine_junk2" class="Item" subclasses="machinepart" />
+	<o name="machine_junk3" class="Item" subclasses="machinepart" />
+	<o name="machine_junk4" class="Item" subclasses="machinepart" />
+	<o name="machine_junk5" class="Item" subclasses="machinepart" />
+	<o name="machine_junk6" class="Item" subclasses="machinepart" />
+	<o name="golden_chalice" class="Item" subclasses="treasure" />
+	<o name="golden_figure" class="Item" subclasses="treasure" />
+	<o name="golden_goromorg" class="Item" subclasses="treasure" />
+	<o name="golden_dragon" class="Item" subclasses="treasure" />
+	<o name="golden_crown" class="Item" subclasses="treasure" />
+	<o name="golden_orb" class="Item" subclasses="treasure" />
+	<o name="ancient_apparatus" class="Item" subclasses="treasure" />
+	<!-- C:\gr\assets\scripts\monsters.lua -->
+	<o name="snail" class="Monster" />
+	<o name="crowern" class="Monster" />
+	<o name="wyvern" class="Monster" />
+	<o name="herder" class="Monster" />
+	<o name="herder_big" class="Monster" />
+	<o name="herder_small" class="Monster" />
+	<o name="herder_swarm" class="MonsterGroup" />
+	<o name="spider" class="Monster" />
+	<o name="ogre" class="Monster" />
+	<o name="skeleton_warrior" class="Monster" />
+	<o name="skeleton_archer" class="Monster" />
+	<o name="skeleton_archer_patrol" class="MonsterGroup" />
+	<o name="skeleton_patrol" class="MonsterGroup" />
+	<o name="goromorg" class="Monster" />
+	<o name="tentacles" class="Monster" />
+	<o name="uggardian" class="Monster" />
+	<o name="crab" class="Monster" />
+	<o name="ice_lizard" class="Monster" />
+	<o name="scavenger" class="Monster" />
+	<o name="scavenger_swarm" class="MonsterGroup" />
+	<o name="shrakk_torr" class="Monster" />
+	<o name="warden" class="Monster" />
+	<o name="cube" class="Monster" />
+	<o name="green_slime" class="Monster" />
+</Assets>
