@@ -17,7 +17,7 @@ namespace GrimLint
 	class Program
 	{
 		static bool interactive = true;
-		static bool deepAnalysis = false;
+		static bool deepAnalysis = true;
 		static bool reportsEnabled = false;
 		static bool definitionParsing = true;
 		static string pathToDungeon = null;
@@ -26,13 +26,14 @@ namespace GrimLint
 		[STAThread]
 		static void Main(string[] args)
 		{
+			MoonSharp.Interpreter.UserData.RegisterAssembly();
 			RunMain(args);
 			Console.ResetColor();
 		}
 
 		static void RunMain(string[] args)
 		{
-			Lint.MsgBanner("GrimLint v1.0 - Static Analysis for GrimRock mods");
+			Lint.MsgBanner("GrimLint v1.1 - Static Analysis for GrimRock mods");
 			Lint.MsgBanner("Program by Marco Mastropaolo");
 
 			Config.LoadXml("Data\\config.xml");

@@ -4,7 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using GrimLint.Model;
-using SharpLua;
+using MoonSharp.Interpreter;
 
 namespace GrimLint.Readers
 {
@@ -24,15 +24,15 @@ namespace GrimLint.Readers
 		{
 			RegisterFn("import", new Action<string>(LoadLuaAssetsFromFile));
 			RegisterFn("vec", new Func<double, double, double, string>(Lua_VecDummy));
-			RegisterFn("cloneObject", new Action<LuaTable>(Lua_cloneObject));
-			RegisterFn("defineObject", new Action<LuaTable>(Lua_defineObject));
-			RegisterFn("defineMaterial", new Action<LuaTable>(Lua_defineMaterial));
-			RegisterFn("defineParticleSystem", new Action<LuaTable>(Lua_defineParticleSystem));
-			RegisterFn("defineAnimationEvent", new Action<LuaTable>(Lua_DummyTable));
-			RegisterFn("defineSound", new Action<LuaTable>(Lua_DummyTable));
-			RegisterFn("defineSpell", new Action<LuaTable>(Lua_DummyTable));
-			RegisterFn("defineRecipe", new Action<LuaTable>(Lua_DummyTable));
-			RegisterFn("defineWallSet", new Action<LuaTable>(Lua_defineWallSet));
+			RegisterFn("cloneObject", new Action<Table>(Lua_cloneObject));
+			RegisterFn("defineObject", new Action<Table>(Lua_defineObject));
+			RegisterFn("defineMaterial", new Action<Table>(Lua_defineMaterial));
+			RegisterFn("defineParticleSystem", new Action<Table>(Lua_defineParticleSystem));
+			RegisterFn("defineAnimationEvent", new Action<Table>(Lua_DummyTable));
+			RegisterFn("defineSound", new Action<Table>(Lua_DummyTable));
+			RegisterFn("defineSpell", new Action<Table>(Lua_DummyTable));
+			RegisterFn("defineRecipe", new Action<Table>(Lua_DummyTable));
+			RegisterFn("defineWallSet", new Action<Table>(Lua_defineWallSet));
 
 			LoadLuaAssetsFromFile(Path.Combine(m_DungeonDirectory, "mod_assets\\scripts\\init.lua"));
 		}
@@ -53,9 +53,9 @@ namespace GrimLint.Readers
 		}
 
 
-		private void AddTable(DefinitionType defType, LuaTable obj, bool isClone = false)
+		private void AddTable(DefinitionType defType, Table obj, bool isClone = false)
 		{
-			var def = LuaTableToDictionary(obj);
+			var def = TableToDictionary(obj);
 
 			if (isClone)
 				m_Assets.CloneDef(defType, new Definition(m_LuaFiles.Peek(), def));
@@ -63,27 +63,27 @@ namespace GrimLint.Readers
 				m_Assets.AddDef(defType, new Definition(m_LuaFiles.Peek(), def));
 		}
 
-		private void Lua_defineObject(LuaTable obj)
+		private void Lua_defineObject(Table obj)
 		{
 			AddTable(DefinitionType.Object, obj, false);
 		}
 
-		private void Lua_defineWallSet(LuaTable obj)
+		private void Lua_defineWallSet(Table obj)
 		{
 			AddTable(DefinitionType.Wallset, obj);
 		}
 
-		private void Lua_defineParticleSystem(LuaTable obj)
+		private void Lua_defineParticleSystem(Table obj)
 		{
 			AddTable(DefinitionType.ParticleSystem, obj);
 		}
 
-		private void Lua_defineMaterial(LuaTable obj)
+		private void Lua_defineMaterial(Table obj)
 		{
 			AddTable(DefinitionType.Material, obj);
 		}
 
-		private void Lua_cloneObject(LuaTable obj)
+		private void Lua_cloneObject(Table obj)
 		{
 			AddTable(DefinitionType.Object, obj, true);
 		}

@@ -4,9 +4,11 @@ using System.Globalization;
 using System.Linq;
 using System.Text;
 using GrimLint.Model;
+using MoonSharp.Interpreter;
 
 namespace GrimLint.Readers.LuaReader
 {
+	[MoonSharpUserData]
 	public class LuaEntity : Entity
 	{
 		Assets m_Assets;
@@ -27,116 +29,116 @@ namespace GrimLint.Readers.LuaReader
 
 		}
 
-		public object setSource(string val)
+		public LuaEntity setSource(string val)
 		{
 			this.Properties["Source"] = val;
 			return this;
 		}
 
-		public object addPullChain()
+		public LuaEntity addPullChain()
 		{
 			this.HasPullChain = true;
 			return this;
 		}
 
-		public object setWallText(string val)
+		public LuaEntity setWallText(string val)
 		{
 			this.Properties["WallText"] = val;
 			return this;
 		}
 
-		public object addConnector(string a, string b, string c)
+		public LuaEntity addConnector(string a, string b, string c)
 		{
 			this.Connectors.Add(new Connector() { Source = this.Id, SourceAction = a, Target = b, TargetAction = c });
 			return this;
 		}
 
-		public object setScrollText(string val)
+		public LuaEntity setScrollText(string val)
 		{
 			this.Properties["ScrollText"] = val;
 			return this;
 		}
 
-		public object setInitialValue(int val)
+		public LuaEntity setInitialValue(int val)
 		{
 			this.Properties["InitialValue"] = val.ToString();
 			return this;
 		}
 
-		public object setValue(int val)
+		public LuaEntity setValue(int val)
 		{
 			this.Properties["Value"] = val.ToString();
 			return this;
 		}
 
-		public object setTriggeredByParty(bool val)
+		public LuaEntity setTriggeredByParty(bool val)
 		{
 			this.Properties["TriggeredByParty"] = val.ToString();
 			return this;
 		}
 
-		public object setTriggeredByMonster(bool val)
+		public LuaEntity setTriggeredByMonster(bool val)
 		{
 			this.Properties["TriggeredByMonster"] = val.ToString();
 			return this;
 		}
 
-		public object setTriggeredByItem(bool val)
+		public LuaEntity setTriggeredByItem(bool val)
 		{
 			this.Properties["TriggeredByItem"] = val.ToString();
 			return this;
 		}
 
-		public object setActivateAlways(bool val)
+		public LuaEntity setActivateAlways(bool val)
 		{
 			this.Properties["ActivateAlways"] = val.ToString();
 			return this;
 		}
 
-		public object setActivateOnce(bool val)
+		public LuaEntity setActivateOnce(bool val)
 		{
 			this.Properties["ActivateOnce"] = val.ToString();
 			return this;
 		}
 
-		public object setSilent(bool val)
+		public LuaEntity setSilent(bool val)
 		{
 			this.Properties["Silent"] = val.ToString();
 			return this;
 		}
 
-		public object setOpenedBy(string val)
+		public LuaEntity setOpenedBy(string val)
 		{
 			this.Properties["OpenedBy"] = val.ToString();
 			return this;
 		}
 
 
-		public object setSpawnedEntity(string val)
+		public LuaEntity setSpawnedEntity(string val)
 		{
 			this.Properties["SpawnedEntity"] = val.ToString();
 			return this;
 		}
 
-		public object setCoolDown(int val)
+		public LuaEntity setCoolDown(int val)
 		{
 			this.Properties["CoolDown"] = val.ToString();
 			return this;
 		}
 
-		public object addTorch()
+		public LuaEntity addTorch()
 		{
 			this.HasTorch = true;
 			return this;
 		}
 
-		public object addTrapDoor()
+		public LuaEntity addTrapDoor()
 		{
 			this.HasTrapDoor = true;
 			return this;
 		}
 
-		public object addItem(object o)
+		public LuaEntity addItem(object o)
 		{
 			Entity E = o as Entity;
 			E.SetContainer(this, this.Items.Count + 1);
@@ -145,85 +147,85 @@ namespace GrimLint.Readers.LuaReader
 			return this;
 		}
 
-		public object setLevel(int val)
+		public LuaEntity setLevel(int val)
 		{
 			this.Properties["Level"] = val.ToString();
 			return this;
 		}
 
-		public object setDoorState(string val)
+		public LuaEntity setDoorState(string val)
 		{
 			this.Properties["DoorState"] = val.ToString();
 			return this;
 		}
 
-		public object setPitState(string val)
+		public LuaEntity setPitState(string val)
 		{
 			this.Properties["PitState"] = val.ToString();
 			return this;
 		}
 
-		public object setTimerInterval(double val)
+		public LuaEntity setTimerInterval(double val)
 		{
 			this.Properties["TimerInterval"] = val.ToString(CultureInfo.InvariantCulture);
 			return this;
 		}
 
-		public object setAIState(string val)
+		public LuaEntity setAIState(string val)
 		{
 			this.Properties["AIState"] = val.ToString(CultureInfo.InvariantCulture);
 			return this;
 		}
 
-		public object setLeverState(string val)
+		public LuaEntity setLeverState(string val)
 		{
 			this.Properties["LeverState"] = val.ToString(CultureInfo.InvariantCulture);
 			return this;
 		}
 
-		public object setChangeFacing(bool val)
+		public LuaEntity setChangeFacing(bool val)
 		{
 			this.Properties["ChangeFacing"] = val.ToString(CultureInfo.InvariantCulture);
 			return this;
 		}
 
-		public object setEntityType(string val)
+		public LuaEntity setEntityType(string val)
 		{
 			this.Properties["EntityType"] = val.ToString(CultureInfo.InvariantCulture);
 			return this;
 		}
 
-		public object setHideLight(bool val)
+		public LuaEntity setHideLight(bool val)
 		{
 			this.Properties["HideLight"] = val.ToString(CultureInfo.InvariantCulture);
 			return this;
 		}
 
-		public object setScreenFlash(bool val)
+		public LuaEntity setScreenFlash(bool val)
 		{
 			this.Properties["ScreenFlash"] = val.ToString(CultureInfo.InvariantCulture);
 			return this;
 		}
 
-		public object setInvisible(bool val)
+		public LuaEntity setInvisible(bool val)
 		{
 			this.Properties["Invisible"] = val.ToString(CultureInfo.InvariantCulture);
 			return this;
 		}
 
-		public object activate()
+		public LuaEntity activate()
 		{
 			this.IsActive = true;
 			return this;
 		}
 
-		public object deactivate()
+		public LuaEntity deactivate()
 		{
 			this.IsActive = false;
 			return this;
 		}
 
-		public object setTeleportTarget(int level, int x, int y, int facing)
+		public LuaEntity setTeleportTarget(int level, int x, int y, int facing)
 		{
 			this.Properties["TeleportTarget::L"] = level.ToString(CultureInfo.InvariantCulture);
 			this.Properties["TeleportTarget::X"] = x.ToString(CultureInfo.InvariantCulture);

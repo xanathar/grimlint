@@ -4,7 +4,6 @@ using System.Linq;
 using System.Text;
 using GrimLint.Model;
 using System.IO;
-using SharpLua;
 
 namespace GrimLint.Readers.LuaReader
 {

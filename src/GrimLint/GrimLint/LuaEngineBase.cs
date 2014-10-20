@@ -2,44 +2,31 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using SharpLua;
+using MoonSharp.Interpreter;
 
 namespace GrimLint
 {
 	public class LuaEngineBase
 	{
-		protected LuaInterface m_Lua;
+		protected Script m_Lua;
 
 		public LuaEngineBase()
 		{
-			m_Lua = LuaRuntime.GetLua();
+			m_Lua = new Script();
 		}
 
 		protected void RegisterFn(string functionName, Delegate d)
 		{
-			m_Lua.RegisterFunction(functionName, d.Target, d.Method);
+			m_Lua.Globals[functionName] = d;
 		}
 
-		protected Dictionary<string, object> LuaTableToDictionary(LuaTable table)
+		protected Dictionary<string, object> TableToDictionary(Table table)
 		{
 			Dictionary<string, object> dic = new Dictionary<string, object>();
 
-			var keys = table.Keys.Cast<object>().ToList();
-			var vals = table.Values.Cast<object>().ToList();
-
-			for (int i = 0; i < keys.Count; i++)
-			{
-				object val = vals[i];
-				LuaTable vt = val as LuaTable;
-				if (vt != null)
-				{
-					val = LuaTableToDictionary(vt);
-				}
-
-				dic.Add(keys[i].ToString(), val);
-			}
-
-			return dic;
+			return table.Pairs.ToDictionary(
+				kvp => kvp.Key.ToObject<string>(),
+				kvp => kvp.Value.ToObject());
 		}
 
 
@@ -50,7 +37,7 @@ namespace GrimLint
 		}
 
 
-		public void Lua_DummyTable(LuaTable table)
+		public void Lua_DummyTable(Table table)
 		{
 
 		}
